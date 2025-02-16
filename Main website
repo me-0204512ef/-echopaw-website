@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EchoPaw Initiative</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>EchoPaw Initiative</h1>
+        <p>Save the animals, save the environment.</p>
+    </header>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>EchoPaw Initiative is a group dedicated to protecting animals and spreading awareness about conservation.</p>
+    </section>
+
+    <section class="signup">
+        <h2>Volunteer Sign-Up</h2>
+        <p>Join us in making a difference! Sign up below:</p>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <textarea name="message" placeholder="Why do you want to volunteer?" required></textarea>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: echopaw@example.com</p>
+        <p>Instagram: @echopawinitiative</p>
+    </section>
+
+</body>
+</html>
